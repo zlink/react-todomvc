@@ -5,23 +5,29 @@ const MainSection = () => (
   <MainSectionWrapper>
     <ul>
       <li>
-        <div>
+        <div className="check">
           <input type="checkbox" name="" id="" />
-          <label htmlFor="">Hello</label>
+        </div>
+        <label htmlFor="">Helxxxxxxxxxxxxxxlo</label>
+        <div className="btn">
           <button>x</button>
         </div>
       </li>
       <li>
-        <div>
+        <div className="check">
           <input type="checkbox" name="" id="" />
-          <label htmlFor="">Hello</label>
+        </div>
+        <label htmlFor="">Helxxxxxxxxxxxxxxlo</label>
+        <div className="btn">
           <button>x</button>
         </div>
       </li>
       <li>
-        <div>
+        <div className="check">
           <input type="checkbox" name="" id="" />
-          <label htmlFor="">Hello</label>
+        </div>
+        <label htmlFor="">Helxxxxxxxxxxxxxxlo</label>
+        <div className="btn">
           <button>x</button>
         </div>
       </li>

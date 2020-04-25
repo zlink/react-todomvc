@@ -1,25 +1,44 @@
 import styled from 'styled-components';
 
 export const MainSectionWrapper = styled.section`
-  position: relative;
-  z-index: 2;
-  border: 1px solid #e6e6e6;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  background: #f5f5f5;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  font-weight: 300;
   ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: inherit;
     li {
-      position: relative;
-      font-size: 24px;
-      border: 1px solid #ededed;
-    }
+      display: flex;
+      border-bottom: 1px solid #ededed;
+      box-sizing: border-box;
+      align-items: center;
+      height: 55px;
+      .check {
+        display: flex;
+        justify-content: center;
+        flex: 0 0 65px;
+        input {
+          background: none;
+          height: 40px;
+        }
+      }
+      label{
+        flex: 1;
+        word-break: break-all;
+        padding: 15px 15px 15px 60px;
+        display: block;
+        line-height: 1.2;
+        transition: color 0.4s;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        flex: 0 0 50px;
+        /* display: none; */
+        width: 40px;
+        height: 40px;
+        color: #cc9a9a;
+      }
+    }    
   }
 `;
